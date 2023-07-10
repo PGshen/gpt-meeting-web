@@ -1,0 +1,63 @@
+{
+  "name": "meeting-web",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build --mode production",
+    "preview": "vite preview --port 8080 --host 0.0.0.0",
+    "eslint:comment": "使用 ESLint 检查并自动修复 src 目录下所有扩展名为 .js 和 .vue 的文件",
+    "eslint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src"
+  },
+  "config": {},
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "pnpm run eslint"
+    ]
+  },
+  "dependencies": {
+    "@antv/g6": "^4.8.9",
+    "@antv/x6": "^2.9.7",
+    "@antv/x6-plugin-clipboard": "^2.1.6",
+    "@antv/x6-plugin-dnd": "^2.0.5",
+    "@antv/x6-plugin-history": "^2.2.1",
+    "@antv/x6-plugin-keyboard": "^2.2.1",
+    "@antv/x6-plugin-scroller": "^2.0.9",
+    "@antv/x6-plugin-selection": "^2.1.7",
+    "@antv/x6-plugin-snapline": "^2.1.7",
+    "@antv/x6-plugin-stencil": "^2.0.3",
+    "@antv/x6-plugin-transform": "^2.1.7",
+    "@antv/x6-vue-shape": "^2.0.11",
+    "@element-plus/icons-vue": "^2.1.0",
+    "@microsoft/fetch-event-source": "^2.0.1",
+    "@traptitech/markdown-it-katex": "^3.6.0",
+    "axios": "^0.26.1",
+    "element-plus": "^2.3.7",
+    "highlight.js": "^11.8.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-highlightjs": "^4.0.1",
+    "pinia": "^2.0.12",
+    "pinia-plugin-persistedstate": "^3.1.0",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "^12.2.3",
+    "@types/markdown-it-link-attributes": "^3.0.1",
+    "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "consola": "^2.15.3",
+    "eslint": "^8.12.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "lint-staged": "^12.3.7",
+    "markdown-it-link-attributes": "^4.0.1",
+    "sass": "^1.61.0",
+    "scss": "^0.2.4",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0",
+    "vite-plugin-style-import": "^2.0.0",
+    "vue-tsc": "^0.29.8"
+  }
+}
