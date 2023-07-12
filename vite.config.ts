@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @version: 
  * @Date: 2023-04-29 22:27:47
- * @LastEditTime: 2023-07-12 00:34:16
+ * @LastEditTime: 2023-07-12 23:48:56
  */
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
@@ -55,14 +55,14 @@ export default defineConfig({
     // 设置代理
     proxy: {
       '/api': {
-        // target: 'http://gpt-meeting-service:8000',
-        target: 'http://0.0.0.0:8000',
+        target: 'http://gpt-meeting-service:8000',
+        // target: 'http://0.0.0.0:8000',
         changeOrigin: true
         // rewrite: (path: string) => path.replace(/^\/api/, '')
       },
       '/image': {
-        // target: 'http://gpt-meeting-service:8000',
-        target: 'http://0.0.0.0:8000',
+        target: 'http://gpt-meeting-service:8000',
+        // target: 'http://0.0.0.0:8000',
         changeOrigin: true
         // rewrite: (path: string) => path.replace(/^\/api/, '')
       }

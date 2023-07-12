@@ -1,7 +1,7 @@
 {
-  "name": "meeting-web",
+  "name": "gpt-meeting-web",
   "private": true,
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build --mode production",

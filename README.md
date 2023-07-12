@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @version: 
  * @Date: 2023-04-29 22:27:47
- * @LastEditTime: 2023-07-02 16:55:39
+ * @LastEditTime: 2023-07-13 00:32:12
 -->
 ## 技术选型
 - 语言：TypeScript
@@ -27,5 +27,10 @@ pnpm install
 pnpm run dev
 
 # 打包
+pnpm run build
+```
 
+## docker镜像构建
+```
+docker build -t gpt-meeting-web:v1 .
 ```

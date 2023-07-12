@@ -2,7 +2,7 @@
  * @Date: 2023-05-30 23:07:17
  * @LastEditors: peng pgs1108pgs@126.com
  * @LastEditTime: 2023-06-04 21:47:31
- * @FilePath: /gpt-meeting-service/Users/shen/Me/Code/plan/meeting-web/src/utils/index.ts
+ * @FilePath: /gpt-meeting-service/Users/shen/Me/Code/plan/gpt-meeting-web/src/utils/index.ts
  */
 
 /**

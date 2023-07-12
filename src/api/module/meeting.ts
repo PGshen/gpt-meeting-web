@@ -2,7 +2,7 @@
  * @Date: 2023-06-04 17:29:33
  * @LastEditors: peng pgs1108pgs@126.com
  * @LastEditTime: 2023-07-03 23:28:49
- * @FilePath: /gpt-meeting-service/Users/shen/Me/Code/plan/meeting-web/src/api/module/meeting.ts
+ * @FilePath: /gpt-meeting-service/Users/shen/Me/Code/plan/gpt-meeting-web/src/api/module/meeting.ts
  */
 import request from '@/utils/axios';
 import { IResponseType } from '.';

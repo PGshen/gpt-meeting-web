@@ -2,7 +2,7 @@
  * @Date: 2023-05-24 22:39:12
  * @LastEditors: peng pgs1108pgs@126.com
  * @LastEditTime: 2023-07-09 15:07:46
- * @FilePath: /gpt-meeting-service/Users/shen/Me/Code/plan/meeting-web/src/pages/meeting/components/OutputComp.vue
+ * @FilePath: /gpt-meeting-service/Users/shen/Me/Code/plan/gpt-meeting-web/src/pages/meeting/components/OutputComp.vue
 -->
 <template>
   <div class="box-card">
