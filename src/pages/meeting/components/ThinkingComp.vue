@@ -403,7 +403,7 @@ export default defineComponent({
     };
 
     /**
-     * 基于历史问答进校提问
+     * 基于历史问答进行提问
      * @param nodeId 
      * @param parentNodeId 
      */

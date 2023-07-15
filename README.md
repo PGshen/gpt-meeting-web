@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @version: 
  * @Date: 2023-04-29 22:27:47
- * @LastEditTime: 2023-07-13 00:32:12
+ * @LastEditTime: 2023-07-15 20:56:21
 -->
 ## 技术选型
 - 语言：TypeScript
@@ -20,6 +20,9 @@
 
 ## 跑起来
 ```
+# 如果服务端也在本地，需要本地hosts添加如下记录，或者修改vite.config.js文件里的proxy配置
+127.0.0.1	gpt-meeting-service
+
 # 依赖安装
 pnpm install
 
