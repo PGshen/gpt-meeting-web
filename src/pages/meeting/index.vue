@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @version: 
  * @Date: 2023-04-09 18:29:19
- * @LastEditTime: 2023-07-09 15:18:43
+ * @LastEditTime: 2023-07-19 09:35:56
 -->
 <template>
   <div class="parent">
@@ -152,6 +152,11 @@
               :value="item.id"
             />
           </el-select>
+          <el-alert
+            v-if="meetingTemplateList.length === 0"
+            type="error"
+            title="需收藏会议模版"
+          />
         </el-form-item>
         <el-form-item label="会议名称">
           <el-input
