@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @version: 
  * @Date: 2023-04-12 10:23:59
- * @LastEditTime: 2023-07-09 23:45:46
+ * @LastEditTime: 2023-10-23 11:51:29
 -->
 <template>
   <div class="parent">
@@ -225,6 +225,14 @@ export default defineComponent({
     }
 
     const createRole = () => {
+      if (imageUrl.value === '') {
+        ElMessage.error('头像是必须的')
+        return false
+      }
+      if (summary.value === '' || description.value === '') {
+        ElMessage.error('角色概要和描述是必须的')
+        return false
+      }
       let createRoleInfo: CreateRole = {
         avatar: imageUrl.value,
         summary: summary.value,
